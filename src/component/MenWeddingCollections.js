@@ -38,7 +38,7 @@ const  MenWeddingCollections = () => {
     
     if (isLoading) {
       return (
-        <div className="flex justify-center items-center h-screen">
+        <div className="d-flex justify-content-center align-items-center vh-100">
             <Oval
                 height="80"
                 width="80"
