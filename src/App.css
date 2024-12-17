@@ -1,0 +1,412 @@
+.custom-width-section {
+    width: 80%;
+    margin: 0 auto; 
+}
+
+.custom-image-ratio {
+    height: 500px;
+    object-fit: cover; 
+  }
+  
+  .heart-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    color: blue;
+    cursor: pointer;
+    /* padding: 20px; */
+}
+
+.styled-section {
+    background-image: url('./images/Neophyte-garment-images\ \(7\).webp'); 
+    background-size: cover;
+    background-position: center;
+    height: 100vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+
+.content {
+    text-align: center;
+    color: #fff;
+}
+
+.content h2{
+    font-size: 5em;
+}
+
+.product-image{
+    height: 300px !important;
+    object-fit: cover;
+}
+
+.in-store{
+    background-color: #A8BF95;
+}
+
+.reco {
+    font-size: 4em;
+    line-height: 1;
+}
+
+.best-sellers {
+    font-size: 2em;
+}
+
+.image-grid-item img {
+    width: 100%;
+    height: 300px;
+    max-height: 400px;
+}
+
+.image-grid-item {
+    position: relative;
+}
+
+.grid-link {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+
+.custom-add-to-cart {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    padding: 10px 40px;
+}
+
+.about-image-section {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+
+.about-image-section img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.about-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff; 
+    text-align: center;
+    padding: 0 20px;
+    margin-top: 20px;
+}
+
+.two-column-section{
+    padding-top: 50px;
+    padding-bottom: 60px;
+    background-color: whitesmoke;
+}
+
+.contact-text h2{
+    font-size: 50px;
+    letter-spacing: 3px;
+    margin-bottom: 40px;
+}
+
+.contact-text p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.contact-forms {
+    border: 1px solid black;
+    padding: 50px 50px 0px;
+}
+
+.contact-forms input {
+    width: 100%;
+    padding: 15px ;
+    margin-bottom: 15px;
+    border-top: none !important;
+    border-left: none;
+    border-right: none;
+    background-color: transparent;
+    border-bottom: 1px solid black !important;
+    border-radius: 3px;
+    color: #000;
+    font-size: 14px;
+}
+
+textarea{
+    width: 100%; 
+    color: #000;
+    padding: 15px;
+}
+
+.contact-forms button {
+    width: 100%;
+    padding: 15px ;
+    background-color: black;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.contact-forms input:focus,
+.contact-forms textarea:focus,
+.contact-forms button:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.contact-forms input[type="text"]:focus,
+.contact-forms input[type="email"]:focus,
+.contact-forms textarea:focus,
+.contact-forms button:focus {
+    border-bottom: 1px solid black !important;
+}
+
+.bk-smoke{
+    background-color: whitesmoke;
+}
+
+.two-column-section{
+    padding-top: 50px;
+    padding-bottom: 60px;
+    background-color: whitesmoke;
+}
+
+.bg-darker{
+    background-color: #A8BF95;
+}
+
+.grid-column img {
+    width: 100%;
+    height: 700px; 
+    object-fit: cover; 
+}
+
+.image-containers {
+    position: relative;
+}
+
+.overlays {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+
+.link-text {
+    color: #fff; 
+    text-decoration: none;
+    font-size: 18px;
+}
+
+form input {
+    border: none !important;
+    border-bottom: 1px solid white !important;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 0 !important;
+}
+
+.border-none {
+    border-color: #000 !important;
+}
+
+.btn-black {
+    background-color: #000 !important ;
+    color: #fff !important;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.rounded-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.card-text {
+    color: #000;
+}
+
+.font-weight-bold {
+    font-weight: 700!important;
+}
+
+.signUp input{
+    color: #000 !important;
+}
+
+.mr-5{
+    margin-left: 10px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.image-grid-item {
+    position: relative;
+}
+
+.image-grid-item img {
+    width: 100%;
+    height: 300px;
+    max-height: 400px; 
+}
+
+.grid-link {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff; 
+}
+
+.overlay-text h2 {
+    font-size: 2rem;
+}
+
+.overlay-text p {
+    font-size: 1rem;
+}
+
+.bk{
+    width: 100%;
+    height: 400px !important;
+}
+
+.fixed-height {
+    width: 100%;
+    height: 200px !important;
+}
+
+.signUp form input {
+    border: 1px solid white !important;
+    background-color: whitesmoke;
+    color: #fff;
+    border-radius: 0 !important;
+}
+
+.signup-1 a {
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.category-name{
+    font-size: 15px;
+}
+
+.cart-delete {
+    background-color: red !important;
+    padding: 10px 30px !important;
+    color: #fff !important;
+}
+
+.cart-count{
+font-size: 10px;
+}
+
+.user-button button{
+    margin-right: 10px;
+}
+
+.social-display{
+    display: none ;
+}
+
+@media (max-width: 769px) {
+    .overlay-text h2 {
+        font-size: 1.5rem;
+    }
+
+    .cart-count{
+        color: #000;
+    }
+
+    .social-display{
+        display: block !important;
+    }
+}
+
+@media (max-width: 643px){
+.reco {
+    font-size: 2em;
+    line-height: 1;
+}
+
+.bk {
+    width: 100%;
+    height: 500px !important;
+}
+
+.w-100 {
+    height: 400px!important;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+    width: 80%; 
+    left: 10%; 
+}
+
+}
+
+@media (max-width: 576px) {
+    .contact-section{
+        margin: 30px 0 40px;
+    }
+    .contact-text h2{
+        font-size: 30px;
+    }
+
+    .contact-text p{
+        font-size: 20px;
+        margin-bottom: 60px;
+    }
+   
+}

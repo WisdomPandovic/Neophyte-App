@@ -1,0 +1,11 @@
+form input {
+    border: none !important;
+    border-bottom: 1px solid white !important;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 0 !important;
+}
+
+.copyright H2 {
+    font-size: 1em;
+}

@@ -1,0 +1,39 @@
+.arrow-slider-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.prev-arrow {
+  position: absolute;
+  top: 10px; 
+  left: 10px; 
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.next-arrow {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.slider-background {
+  position: relative;
+  background-image: url('/src/images/19Nkunzi\ Jacket.webp');
+  background-size: cover;
+  background-position: center;
+  color: aliceblue;
+  height: 100vh;
+}
+
+.custom-aspect-ratio {
+  aspect-ratio: 16 / 7; 
+}
+
+.arrow-slider-contain{
+margin-top: 70px;
+}
